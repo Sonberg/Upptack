@@ -29,7 +29,7 @@ class Item extends Component {
          <Image source={this.props.image ? {uri: this.props.image} : {}} 
            style={{width: 60, height: 60, marginRight: 12, marginTop: 6, borderRadius: 3, marginBottom: 0, backgroundColor: "#f0f0f0"}}/>
          <View style={[styles.column, {alignItems: 'flex-start'}]}>
-           <Text style={Base.sub} numberOfLines={1}>{this.props.title}</Text>           
+           <Text style={[Base.sub, {color: "#666"}]} numberOfLines={1}>{this.props.title}</Text>           
            <Text style={[Base.text, {marginTop: 4, paddingBottom: 0}]}>{this.props.sub} </Text> 
            <Text style={[Base.text, {marginTop: 2, paddingBottom: 0}]}>{this.props.date ? this.props.date : ""}</Text>            
          </View>

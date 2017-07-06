@@ -14,7 +14,7 @@
     var filterQuery = "";
     
     if (!text) {
-      return false;
+      return callback(null, null);
     }
     
     

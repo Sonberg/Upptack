@@ -48,7 +48,7 @@ class Events extends Component {
     cities: [],
     open: false,
     selected: "Facebook",
-    text: '',
+    text: 'Stockholm',
     filter: {
       showAll: false,
       interval: 'all'

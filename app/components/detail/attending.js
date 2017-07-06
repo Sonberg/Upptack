@@ -10,7 +10,7 @@ class Attending extends Component {
     const { event } = this.props;
     return (
       <View style={[Base.center, { marginVertical: 12, alignItems: 'stretch'}]}>  
-        <Text style={[Base.title2]}>Visitors({event.attending_count})</Text>
+        <Text style={[Base.title2]}>Visitors ({event.attending_count})</Text>
         <Text style={[Base.text]}>{event.going ? (<Text>Du och</Text>) : (<Text></Text>)} 6 av dina vänner kommer</Text>
       </View>
     );

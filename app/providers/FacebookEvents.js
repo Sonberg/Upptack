@@ -34,9 +34,9 @@ class FacebookEvents extends Component {
     moment.updateLocale("sv", locale_sv);
 
     this.state = {
-      events: [],
+      events: null,
       loading: false,
-      next: true,
+      next: null,
       text: props.text,
       token: props.token,
       refreshing: false,
@@ -45,12 +45,11 @@ class FacebookEvents extends Component {
   }
   
   componentWillReceiveProps(nextProps) {
-    console.log(nextProps);
     this.setState({text: nextProps.text, token: nextProps.token });
-    this.refresh(nextProps.text);
+    this.refresh(nextProps.text, true);
   }
   
-  refresh(text) {
+  refresh(text, hidden) {
     if (this.state.refreshing || !this.props.token) {
       return;
     }
@@ -59,16 +58,20 @@ class FacebookEvents extends Component {
       return;
     }
     
-    this.setState({refreshing: true});
+    if (!hidden) {
+        this.setState({refreshing: true});
+    }
     
     
      cached(text ? text : this.state.text, (data, err) => {
-
+       
        if (data) {
+         
+         this.setState({refreshing: false, loading: false});
          
          if (error) {
            console.log("error", error);
-           this.setState({refreshing: false, loading: false});
+           
            return;
          }
          
@@ -78,9 +81,10 @@ class FacebookEvents extends Component {
          
          events(text ? text : this.state.text, this.props.filter, this.props.token, (data, error) => { 
            
+           this.setState({refreshing: false, loading: false});
+           
            if (error) {
              console.log("error", error);
-             this.setState({refreshing: false, loading: false});
              return;
            }
                
@@ -146,18 +150,19 @@ class FacebookEvents extends Component {
   }
   
   render() {
-    console.log(this.state.events.length);
+  
     return (
       <View style={{flex: 1}}>
         <FlatList
           style={{paddingTop: 6}}
           data={this.state.events}
+          extraData={this.state}
           ref="listRef"
           refreshing={this.state.refreshing}
           onEndReached={this.scrollEnd.bind(this)}
           keyExtractor={this._keyExtractor}
-          ListEmptyComponent={<Text>Tomt!!!</Text>}
-          ListFooterComponent={() => this.state.next ? (<Loading loading={this.state.loading} error={this.state.error} next={this.state.next} />) : (<Recommendations cities={this.props.cities}/>)}
+          ListEmptyComponent={<Empty cities={this.props.cities} />}
+          ListFooterComponent={() => this.state.next ? (<Loading loading={this.state.loading} error={this.state.error} next={this.state.next} />) : (<Recommendations {...this.state} cities={this.props.cities}/>)}
           refreshControl={
             <RefreshControl
               refreshing={this.state.refreshing}

@@ -55,7 +55,6 @@ class Detail extends Component {
       region: null,
       id: props.navigation.state.params.id,
       token: props.navigation.state.params.token,
-      loading: true
     };
     
     if (props.navigation.state.params.token) {
@@ -71,30 +70,6 @@ class Detail extends Component {
       });
     }
   }
-  
-  _renderTruncatedFooter = (handlePress) => {
-   return (
-     <TouchableHighlight onPress={handlePress} underlayColor="transparent">
-       <Text style={[Base.text, {color: '#157EFB', fontWeight:'bold', marginTop: 5}]}>
-         Läs mer
-       </Text>
-    </TouchableHighlight>
-   );
- }
-
- _renderRevealedFooter = (handlePress) => {
-   return (
-     <TouchableHighlight onPress={handlePress} underlayColor="transparent">
-       <Text style={[Base.text, {color: '#157EFB', fontWeight:'bold', marginTop: 5}]}>
-         Dölj
-       </Text>
-    </TouchableHighlight>
-   );
- }
- 
- _handleTextReady = () => {
-    this.setState({ loading: false });
-  }
 
 
   render() {
@@ -103,7 +78,7 @@ class Detail extends Component {
     const { event } = this.state;
     const date = eventDate(event);
     
-    if (!event && this.state.loading) {
+    if (!event) {
         return (<View style={Base.body}/>);
     }
 
@@ -142,11 +117,7 @@ class Detail extends Component {
                 </View>
             
                 <ReadMore 
-                  numberOfLines={3} 
-                  renderTruncatedFooter={this._renderTruncatedFooter}
-                  renderRevealedFooter={this._renderRevealedFooter}
-                  onReady={this._handleTextReady}>
-                  
+                  numberOfLines={3} >
                  <Text style={[Base.text, {marginTop: 12, color: '#888', lineHeight: 20}]} selectable={true}>
                       {event.description}
                   </Text>

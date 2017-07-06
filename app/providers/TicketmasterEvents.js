@@ -16,7 +16,7 @@ class TicketmasterEvents extends Component {
     events: [],
     location: null,
     loading: true,
-    next: true,
+    next: null,
     errorMessage: null,
   }
   
