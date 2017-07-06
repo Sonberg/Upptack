@@ -1,0 +1,53 @@
+{
+  "name": "upptack",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "~1.0.1",
+    "react-native-scripts": "0.0.31",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/react-native-read-more-text": "^1.1.0",
+    "apsl-react-native-button": "^3.0.2",
+    "core-decorators": "^0.19.0",
+    "expo": "^17.0.0",
+    "facebook-events-by-location-core": "^0.3.0",
+    "firebase": "^4.1.3",
+    "geopoint": "^1.0.1",
+    "latlon-geohash": "^1.1.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.0",
+    "react-native-cacheable-image": "^1.5.1",
+    "react-native-collapsible": "^0.8.0",
+    "react-native-fbsdk": "^0.6.1",
+    "react-native-flexbox-grid": "^0.3.1",
+    "react-native-icon-badge": "^1.1.2",
+    "react-native-linear-gradient": "^2.0.0",
+    "react-native-maps": "^0.15.3",
+    "react-native-order-children": "^1.1.2",
+    "react-native-scrollable-tab-view": "^0.6.7",
+    "react-native-segmented-control-tab": "^3.0.2",
+    "react-native-slowlog": "^1.0.2",
+    "react-native-smart-badge": "^1.1.1",
+    "react-native-storage": "^0.2.2",
+    "react-native-timeago": "^0.3.0",
+    "react-native-vector-icons": "^4.2.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "redux-react-firebase": "^2.6.1",
+    "redux-thunk": "^2.2.0"
+  }
+}

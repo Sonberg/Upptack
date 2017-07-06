@@ -1,0 +1,49 @@
+["J", "m", "w", "B", "g", "na", "ie", "_lat", "refreshToken", "uid", "displayName", "photoURL", "email", "emailVerified", "phoneNumber", "isAnonymous", "Ia", "Cc", "da", "Ke", "sd", "Ec", "Kc", "oa", "pb", "xb", "Va", "providerData"] {
+  "uid": "UZjMhrxoWQZGAXJhBh4jw1gBpHx1",
+  "displayName": "Per Sonberg",
+  "photoURL": "https://scontent.xx.fbcdn.net/v/t1.0-1/p100x100/14212724_10209311366714926_9139320033962522425_n.jpg?oh=4a26abe698e698ca73b655dd8ca0cd1a&oe=594501CA",
+  "email": "per.sonberg@gmail.com",
+  "emailVerified": false,
+  "phoneNumber": null,
+  "isAnonymous": false,
+  "providerData": [{
+    "uid": "10210850188864518",
+    "displayName": "Per Sonberg",
+    "photoURL": "https://scontent.xx.fbcdn.net/v/t1.0-1/p100x100/14212724_10209311366714926_9139320033962522425_n.jpg?oh=138a05524a5aef1d7823c4ca8ab9a9ff&oe=59E335CA",
+    "email": "per.sonberg@gmail.com",
+    "providerId": "facebook.com"
+  }],
+  "apiKey": "AIzaSyASbK0VH-ncLrO1lJcLTzvFB6AX-beIfUs",
+  "appName": "[DEFAULT]",
+  "authDomain": "studentklubben-65ea0.firebaseapp.com",
+  "stsTokenManager": {
+    "apiKey": "AIzaSyASbK0VH-ncLrO1lJcLTzvFB6AX-beIfUs",
+    "refreshToken": "ACXxpGEm-bXOsCqyecf3srPQswQD0ewqd703SXi090lFFhzjjKNeQHo5TcPA74-mv_BGzvrtHjOcmsRw89tS41bmVYKb6McWNlhm4zRa3fD5tzCIYIJW0rVuRk5w5louiHu0e5ypJZlweP0PqhSpiWJFidJ1SzZ9C4edOqj4q7ycyCvlKG73NptTBzUQqloPX9JH5Ph9ZNundYaAF-lmx9Im75tV00QhlSBUEzQkt0lE2UHZskxzsmPxjaaR4cerLccQSkx-BTRbuYfE72t4-fx5nhlDmt_ImHCGLHdg54jA7ehCXPDpIrplDBbPeAuY5E2m3fIHck18W6aytekMml6_jiU_GuP86aL81K3it66U8JCQfjTgQl3rcWFiW0-U2XENIlMHEublAGFP7I4L-RBqgVQCtTOD9Yen30kLWI4rCIExvzgzQBlaVXxgwRhQeSsgng_BfIQO",
+    "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjViNTM4ZWRlODIwMDliZjE1NzY4YmYxOGI1MDE0OGM5NTNiOTkyMGUifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vc3R1ZGVudGtsdWJiZW4tNjVlYTAiLCJuYW1lIjoiUGVyIFNvbmJlcmciLCJwaWN0dXJlIjoiaHR0cHM6Ly9zY29udGVudC54eC5mYmNkbi5uZXQvdi90MS4wLTEvcDEwMHgxMDAvMTQyMTI3MjRfMTAyMDkzMTEzNjY3MTQ5MjZfOTEzOTMyMDAzMzk2MjUyMjQyNV9uLmpwZz9vaD00YTI2YWJlNjk4ZTY5OGNhNzNiNjU1ZGQ4Y2EwY2QxYSZvZT01OTQ1MDFDQSIsImF1ZCI6InN0dWRlbnRrbHViYmVuLTY1ZWEwIiwiYXV0aF90aW1lIjoxNDk4MjA1NDA2LCJ1c2VyX2lkIjoiVVpqTWhyeG9XUVpHQVhKaEJoNGp3MWdCcEh4MSIsInN1YiI6IlVaak1ocnhvV1FaR0FYSmhCaDRqdzFnQnBIeDEiLCJpYXQiOjE0OTgzOTI1MDksImV4cCI6MTQ5ODM5NjEwOSwiZW1haWwiOiJwZXIuc29uYmVyZ0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZmFjZWJvb2suY29tIjpbIjEwMjEwODUwMTg4ODY0NTE4Il0sImVtYWlsIjpbInBlci5zb25iZXJnQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6ImZhY2Vib29rLmNvbSJ9fQ.RTnm6GuG6IqHPS-4v527uXHuR0Cnt8uwjR5uinQ-Kt5WexBOihVW0mk-NA9IuxSF_0vHZquLOO1dBaBfWc75EOqYw0Kdy2g6HOKrJ1eNYdJwJtOyBSy0G6eIfVB-HT0o-p0LZa-wD1kUQAWHH7xH7ufFdbrCnHYcuWEoHDIr8gk2oUVkflrGXWHwIFun-gmWSLTP3s_VvH322MUrY1QZEAwNfq8rUlCKlrI51gJdkNK8cnnnTpWZyXS9hupT2TFZ-a8H6wAKMgKP8WMjlakZi_QybPQW1ZZeDZjBMl8LtqAQiJ9c5b4jKgmBwZKmm5IpRjMxafzmKZHCOhfql8SoWA",
+    "expirationTime": 1498396097539
+  },
+  "redirectEventId": null
+} {
+  "type": "default",
+  "status": 200,
+  "ok": true,
+  "headers": {
+    "map": {
+      "content-type": ["application/json; charset=UTF-8"],
+      "access-control-allow-origin": ["*"],
+      "pragma": ["no-cache"],
+      "x-fb-debug": ["hgCAXrPuxOI4dQy3D0SbTktH3SZ6S4LwVDiPSIKbr44/T08eItdu9SnkgNW+ZK11oty1YIsve15SN0LKFSBEMQ=="],
+      "x-fb-rev": ["3121760"],
+      "expires": ["Sat, 01 Jan 2000 00:00:00 GMT"],
+      "cache-control": ["private, no-cache, no-store, must-revalidate"],
+      "date": ["Wed, 28 Jun 2017 06:06:30 GMT"],
+      "content-length": ["47"],
+      "facebook-api-version": ["v2.8"],
+      "etag": ["\"3ebcfa9ed35d30d14b538c91b6f7a7a66c6e1267\""],
+      "x-fb-trace-id": ["BRecU5DuqYv"]
+    }
+  },
+  "url": "https://graph.facebook.com/me?access_token=EAAGDkVUWQv0BAHX2QuScRncPplYWSpny5cqEeoSVHjmD6wO3wGkl0AG3450KX27n964xMVQpu43hrZAWckqtaZAhRxPFOXSpFoXT6Fuv0vztVGwZBcFM8xVmmjfOpBgZAQVdZADATmHqZChzDMRfPoGXZAp4vrc2tNmtAo8ZAioSm47IElNP4cd7iw3StOrC2q6JgUlmdtl5gwZDZD",
+  "_bodyInit": "{\"name\":\"Per Sonberg\",\"id\":\"10210850188864518\"}",
+  "_bodyText": "{\"name\":\"Per Sonberg\",\"id\":\"10210850188864518\"}"
+}
